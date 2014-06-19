@@ -1,0 +1,5 @@
+app/scripts/jquery.js
+Gruntfile.js
+app/scripts/background.js
+app/scripts/chromereload.js
+test/spec/test.js
