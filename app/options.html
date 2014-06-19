@@ -1,21 +1,56 @@
 <!doctype html>
 <html>
-    <head>
-        <!-- bower:css -->
-        <!-- endbower -->
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- build:css styles/main.css -->
-        <link href="styles/main.css" rel="stylesheet">
-        <!-- endbuild -->
+    <!-- build:css styles/main.css -->
+    <link href="styles/font-awesome.css" rel="stylesheet" />
+    <link href="styles/main.css" rel="stylesheet">
+    <!-- endbuild -->
 
-        <!-- bower:js -->
-        <!-- endbower -->
+    <!-- build:js scripts/options.js -->
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/options.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Video Link Icon</a>
+        </div>
+      </div>
+    </div>
 
-        <!-- build:js scripts/options.js -->
-        <script src="scripts/options.js"></script>
-        <!-- endbuild -->
-    </head>
-    <body>
-      <h1>'Allo, 'Allo!</h1>
-    </body>
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Hi there!</h1>
+        <p>Herein are the settings for Video Link. There's only one right now.</p>
+      </div>
+    </div>
+
+    <form class="form-horizontal" role="form">
+      <div class="form-group">
+        <label for="flaggedSites" class="col-sm-2 control-label">Flagged Sites</label>
+        <div class="col-sm-10">
+          <textarea id="flaggedSites" class="form-control" rows="4"></textarea>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <div id="status" class="bg-success"></div>
+          <button id="save" class="btn btn-primary btn-lg">Save</button>
+        </div>
+      </div>
+    </form>
+
+      <hr>
+
+      <footer style="text-align: center;">
+        <p>Ændrew Rininsland 2014</p>
+      </footer>
+    </div> <!-- /container -->
+  </body>
 </html>

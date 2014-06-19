@@ -1,12 +1,15 @@
 {
     "name": "__MSG_appName__",
-    "version": "0.0.2",
+    "version": "0.0.9",
     "manifest_version": 2,
     "description": "__MSG_appDescription__",
     "icons": {
         "16": "images/icon-16.png",
         "128": "images/icon-128.png"
     },
+    "permissions": [
+        "storage"
+    ],
     "default_locale": "en",
     "background": {
         "scripts": [
@@ -22,13 +25,17 @@
                 "https://*/*"
             ],
             "css": [
-                "styles/main.css"
+                "styles/font-awesome.css"
             ],
             "js": [
+                "scripts/jquery.js",
                 "scripts/contentscript.js"
             ],
             "run_at": "document_end",
             "all_frames": false
         }
+    ],
+    "web_accessible_resources": [
+        "styles/fonts/*"
     ]
 }
