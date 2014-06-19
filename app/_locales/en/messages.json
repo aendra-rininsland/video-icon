@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "video-icon",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "An extension that adds a subtle icon to links leading to video sites.",
+    "description": "The description of the application"
+  }
+}
