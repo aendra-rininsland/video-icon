@@ -1205,6 +1205,7 @@
   content: "\f169";
 }
 .fa-youtube-play:before {
+  padding: 0px 5px;
   content: "\f16a";
 }
 .fa-dropbox:before {
